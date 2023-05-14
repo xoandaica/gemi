@@ -1,7 +1,8 @@
-```mermaid
 graph LR
-A[Hard edge] -->B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-```
+A[Khởi đầu] --> B[Nhập dãy số]
+B --> C[Chọn số N]
+C --> D[Đếm số chia hết cho N]
+D --> E[In ra các số chia hết cho N]
+E --> F[Kết thúc]
+D --> G[In ra số lượng số chia hết cho N]
+G --> F
